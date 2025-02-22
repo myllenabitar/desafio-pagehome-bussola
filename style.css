@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+html {
+  --font-family:Nunito, sans-serif;
+  --font-size-titulo: 14px;
+  --primary-color-1: ; 
+  --primary-color-2: ;
+  --text-color:;
+}
