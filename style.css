@@ -4,14 +4,113 @@
   box-sizing: border-box;
   font-family: var(--font-family);
 }
-
 html {
-  --font-family:Nunito, sans-serif;
+  --font-family: Nunito, sans-serif;
   --font-size-titulo: 14px;
   --primary-color-1: #ffffff ; 
-  --primary-color-2: ;
-  --text-color: ;
+  --primary-color-2: #eaeaea ;
+  --text-color:#777986 ;
+  --text-color-2: #2E3F73;
+  --link-color:#1470B4 ;
+  --detalhes--color:#FFF3CC;
+  --detalhes--color-2:#FFDCE4;
+  --detalhes--color-3:#D4E9FF;
+  --detalhes--color-4:#B7E7DA;
+  --color-border:#E1E1E1;
+  --color-shadow:#E4E8EE;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 7fr; 
+    gap: 20px;
 }
 .menu-lateral{
-background-color: var(--primary-color-1);
+    background-color: var(--primary-color-1);
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 237px;
+    height: 693.49px;
+    gap: 40px;
+}
+button {
+    all: unset; 
+    cursor: pointer; 
+    width: 211;
+    height: 46;
+    top: 192px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;  
+    gap: 8px;
+    color:var(--text-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu-conta{
+    color: var(--text-color-2);
+    font: bold;
+    line-height: 19px;
+    font-size: 19px;
+}
+.menu-conta p {
+    font-size:15px;
+    margin-bottom: 40px;
+}
+.menu-conta h3{
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.menu-usuario{
+    padding: 10px;
+    align-items: center;
+    gap: 8px;
+}
+.botao-inicio{
+    color: var(--text-color-2);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 95px;
+    height: 22px;
+    left: 7px;
+    top: 12px;
+}
+.botao-seta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 211px;
+    height: 46px;
+    top: 46px;
+}
+.seta{
+    margin-right: 40px;
+    gap: 8px;
+}
+.sub-menu{
+    width: 171;
+    height: 90;
+    gap: 12px;
+    padding-left: 28px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+.sair{
+    margin-top: 50px;
+    border-top: 1px solid var(--color-border);
+}
+.logo{
+    margin-top: 500px;
+
+}
+.pagina-inicial{
+    background-color: var(--primary-color-2);
+    padding: 20px;
 }
