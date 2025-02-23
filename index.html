@@ -14,6 +14,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Desafio Page Home Bussola</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="icon.png" type="image/png">
 
@@ -27,21 +28,35 @@
                 <p>oliviathye@gmail.com</p>
             </div>
             <div class="menu-usuario">
-                <button class="botao-inicio"><img src="./img/house-sharp-regular 1.png" alt="icone-home">Inicio</button>
-                <button class="botao-seta"><img src="./img/email.png" alt="icone-perfil">Meu perfil <img src="./img/Vector.png" class="seta" alt="Seta para baixo"></button>
-                    <div class="sub-menu">
+                <button class="botao-inicio">
+                    <img src="./img/house-sharp-regular 1.png" alt="icone-home">Início
+                </button>
+
+                <button class="botao-seta menu-button" data-target="sub-menu">
+                    <img src="./img/email.png" alt="icone-perfil">Meu perfil 
+                    <img src="./img/Vector.png" class="seta" alt="Seta para baixo">
+                </button>
+                    <div class="sub-menu section" id="sub-menu">
                         <p>Informações pessoais</p>
                         <p>Senha e segurança</p>
                         <p>Preferências</p>
                     </div>
-                <button><img src="./img/building-regular 1.png" alt="icone-organizacoes"> Minhas organizações</button>
-                <button class="botao-seta"><img src="./img/descobriricone.png" alt="icone-descobrir">Descobrir <img src="./img/Vector.png" class="seta" alt="Seta para baixo"></button>
-                    <div class="sub-menu">
+
+                <button>
+                    <img src="./img/building-regular 1.png" alt="icone-organizacoes"> Minhas organizações
+                </button>
+                <button class="botao-seta menu-button" data-target="sub-menu-descobrir">
+                    <img src="./img/descobriricone.png" alt="icone-descobrir">Descobrir 
+                    <img src="./img/Vector.png" class="seta" alt="Seta para baixo">
+                </button>
+                    <div class="sub-menu section" id="sub-menu-descobrir">
                         <p>Editais</p>
                         <p>BússolaCAST</p>
                         <p>Corrente do bem</p>
                         <p>Youtube</p>
-                    </div>
+                </div>
+                
+                </div>
                     <div class="sair">
                         <button><img src="./img/_Button base.png" alt="icone-sair">Sair</button>
                     </div>
