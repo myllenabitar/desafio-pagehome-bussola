@@ -36,8 +36,6 @@ main{
 button {
     all: unset; 
     cursor: pointer; 
-    width: 211;
-    height: 46;
     top: 192px;
     display: flex;
     flex-direction: row;
@@ -157,12 +155,14 @@ button {
     font-weight: 700;
     color: var(--text-color);
     border-bottom: 1px solid var(--color-border);
+    opacity: 70%;
 }
 .informacoes h3 {
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 10px;
+    opacity: 70%;
 }
 .informacoes p{
     font-size: 13px;
@@ -178,3 +178,38 @@ button {
     text-decoration: underline;
     margin-bottom: 10px;
 }
+.notificacoes-container{
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: var(--primary-color-1);
+    color: var(--text-color);
+}
+.notificacoes-titulo{
+    border-bottom: 1px solid var(--color-border);
+    font-weight: 700;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.notificacoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border-bottom: 1px solid var(--color-border);
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7.5494px 0px 15.0988px;
+    gap: 7.55px;
+    width: 943.67px;
+    height: 78.89px;
+    left: 8px;
+    top: 0px;
+
+}
+
