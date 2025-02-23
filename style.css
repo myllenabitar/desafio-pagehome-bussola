@@ -113,4 +113,68 @@ button {
 .pagina-inicial{
     background-color: var(--primary-color-2);
     padding: 20px;
+    align-content: center;
+}
+.titulo{
+    gap:10px;
+    text-align: center;
+    color: var(--text-color);
+}
+.titulo h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.titulo p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.informacoes-usuario{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+.informacoes{
+    display: grid;
+    padding: 20px;
+    background-color: var(--primary-color-1);
+    border-radius: 0 0 10px 10px;
+}
+.sessao-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+    gap: 1px;
+}
+.sessao-container img{
+    width: 81px;
+    height: 75px;
+}
+.sessao{
+    display: grid;
+}
+.informacoes h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--color-border);
+}
+.informacoes h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.informacoes p{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.informacoes a{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--link-color);
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
