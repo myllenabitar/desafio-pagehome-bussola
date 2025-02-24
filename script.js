@@ -13,5 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+document.querySelector('.menu-hamburguer').addEventListener('click', function() {
+    document.querySelector('.menu-lateral').classList.toggle('ativo');
+});
 
 

@@ -108,7 +108,7 @@ button {
     border-top: 1px solid #EAEAEA;
 }
 .logo{
-    margin-top: 33.125rem;
+    margin-top: 55.125rem;
 }
 #meu-perfil, #descobrir{
     display: block; 
@@ -282,7 +282,7 @@ button {
     position: absolute;
     font-weight: 500;
     top: 0.5rem;
-    right: 0.75rem;
+    right: 4rem;
     font-size: 0.75rem;
     color: var(--text-color);
 }
@@ -299,118 +299,101 @@ button {
     border-left: 0.25rem solid #D4E9FF; 
 }
 
-
 @media (min-width: 1024px) {
-    main{
-        grid-template-columns: 1fr 7fr; 
+    main {
+        grid-template-columns: 1fr 6fr;
+        gap: 1.5rem;
     }
-    .menu-lateral{
-        width: 17.75rem;
-        height: 87.5rem;
+    .menu-lateral {
+        width: 18rem;
+        height: 90rem;
     }
-    .menu-conta h3{
-        font-size: 1.1875rem;
+    .pagina-inicial {
+        width: 100%;
+        max-width: 1050px;
+        height: auto;
+        margin: 0 auto;
     }
-    .informacoes-usuario{
+    .informacoes-usuario {
         grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
     }
-    .sessao-container{
-        grid-template-columns: 1fr 4fr;
+    .notificacoes {
+        width: 100%;
     }
-    .notificacoes{
-        width: 63.875rem;
-        height: 47.5rem;
+    .notificacoes-box, .notificacoes-1 {
+        width: 100%;
     }
-    .notificacoes-1, .notificacoes-box {
-        width: 62.5rem;
-    }
-  }
-  
-  
-  @media (max-width: 1023px) {
-    main{
-        grid-template-columns: 1fr 6fr; 
-    }
-    .menu-lateral{
-        width: 16rem;
-        height: auto;
-    }
-    .menu-conta h3{
-        font-size: 1.0625rem;
-    }
-    .informacoes-usuario{
+}
+
+@media (max-width: 1023px) {
+    main {
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
-    .notificacoes{
+    .menu-lateral {
         width: 100%;
         height: auto;
-    }
-    .notificacoes-1, .notificacoes-box {
-        width: 100%;
-    }
-  }
-  
- 
-  @media (max-width: 768px) {
-    main{
-        grid-template-columns: 1fr; 
-    }
-    .menu-lateral{
-        width: 100%;
-        height: auto;
-    }
-    .menu-conta h3{
-        font-size: 1rem;
-    }
-    .informacoes-usuario{
-        grid-template-columns: 1fr;
-    }
-    .sessao-container{
-        grid-template-columns: 1fr;
-    }
-    .notificacoes{
-        width: 100%;
-        height: auto;
-    }
-    .notificacoes-1, .notificacoes-box {
-        width: 100%;
-    }
-  }
-  
-  
-  @media (max-width: 480px) {
-    html {
-      --font-size-titulo: 1rem;
-    }
-    .menu-lateral{
         padding: 1rem;
+    }
+    .pagina-inicial {
         width: 100%;
-        height: auto;
+        max-width: 1000px;
+        padding: 1rem;
+        margin: 0 auto;
     }
-    .menu-conta h3{
-        font-size: 1rem;
+    .informacoes-usuario {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
-    .botao-inicio, .botao-seta{
-        font-size: 1rem;
+    .notificacoes {
+        width: 100%;
     }
-    .notificacoes-1, .notificacoes-box {
+    .notificacoes-box, .notificacoes-1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-lateral {
+        display: none;
+    }
+    .pagina-inicial {
         padding: 0.75rem;
-        width: 100%;
+        max-width: 100%;
+    }
+    .informacoes-usuario {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    .notificacoes-box, .notificacoes-1 {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pagina-inicial {
+        padding: 0.5rem;
+        max-width: 100%;
     }
     .titulo h1 {
         font-size: 1.25rem;
     }
-    .informacoes h2{
-        font-size: 1.125rem;
+    .titulo p {
+        font-size: 0.875rem;
     }
-    .informacoes h3 {
-        font-size: 1rem;
+    .informacoes-usuario {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
     }
-    .informacoes p {
+    .notificacoes-box, .notificacoes-1 {
+        padding: 0.5rem;
         font-size: 0.75rem;
     }
-    .informacoes a {
+    .notificacoes-box h3, .notificacoes-1 h3 {
+        font-size: 0.8125rem;
+    }
+    .notificacoes-box p, .notificacoes-1 p {
         font-size: 0.75rem;
     }
-  }
-  
+}
