@@ -118,7 +118,7 @@ a {
 }
 
 .sub-menu.ativo {
-    max-height: 300px; /* Ajuste para um valor maior */
+    max-height: 300px; 
     opacity: 1;
 }
 

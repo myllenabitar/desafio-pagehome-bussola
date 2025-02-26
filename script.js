@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (menu) {
             menu.classList.toggle("ativo");
-            button.classList.toggle("ativo"); // Para girar a seta corretamente
+            button.classList.toggle("ativo"); 
         }
     }
 
