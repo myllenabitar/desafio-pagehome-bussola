@@ -16,142 +16,127 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=YourFont:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="icon.png" type="image/png">
 
 </head>
 <body>
-    <main>
-        <section id="menu-lateral" class="menu-lateral">
-            <div class="menu-conta">
+    
+        <nav id="nav" class="nav">
+            <section class="nav-conta">
                 <img src="./img/Rectangle 7.png" alt="Foto de Perfil">
                 <h3>Olivia Rhye</h3>
                 <p>oliviathye@gmail.com</p>
-            </div>
-            
-            <div class="menu-usuario">
-                <button class="botao-inicio">
-                    <img src="./img/house-sharp-regular 1.png" alt="icone-home">Início
-                </button>
+            </section>
+            <section class="nav-usuario">
+                <a class="link-inicio" href="#">
+                    <img src="./img/house-sharp-regular 1.png" alt="Home Icon"><h3>Início</h3>
+                </a>
+                <a class="link-seta nav-a" href="#" id="nav-perfil" aria-label="Abrir perfil" >
+                    <img src="./img/email.png" alt="Profile Icon"><h3>Meu perfil </h3>
+                    <img src="./img/Vector.png" class="seta" alt="Show More">
+                </a>
+                        <ul class="sub-nav section" id="subnav-perfil">
+                            <li><a>Informações pessoais</a></li>
+                            <li><a>Senha e segurança</a></li>
+                            <li><a>Preferências</a></li>
+                        </ul>
+                <a href="#" aria-label="Abrir as organizações do Perfil">
+                    <img src="./img/building-regular 1.png" alt="Organizations Icon"><h3>Minhas organizações</h3>
+                </a>
+                <a class="link-seta nav-a" href="#" id="nav-descobrir" aria-label="Abrir subnav do perfil">
+                    <img src="./img/descobriricone.png" alt="Discover Icon"><h3>Descobrir</h3>
+                    <img src="./img/Vector.png" class="seta" alt="Show More">
+                </a>
+                        <ul class="sub-nav section" id="subnav-descobrir">
+                            <li><a>Editais</a></li>
+                            <li><a>BússolaCAST</a></li>
+                            <li><a>Corrente do bem</a></li>
+                            <li><a>Youtube<a></li>
+                            </ul>
+                    <section class="link-sair">
+                        <a href="#" aria-label="Sair da conta">
+                            <img src="./img/_Button base.png" alt="Logout Icon"><h3>Sair</h3></a>
+                    </section>
+                <section class="logo">
+                    <img src="./img/bussola.png" alt="Bússola Logo">    
+                </section>
+            </section>
+        </nav>
 
-                <button class="botao-seta menu-button" data-target="sub-menu">
-                    <img src="./img/email.png" alt="icone-perfil">Meu perfil 
-                    <img src="./img/Vector.png" class="seta" alt="Seta para baixo">
-                </button>
-                    <div class="sub-menu section" id="sub-menu">
-                        <p>Informações pessoais</p>
-                        <p>Senha e segurança</p>
-                        <p>Preferências</p>
-                    </div>
-
-                <button>
-                    <img src="./img/building-regular 1.png" alt="icone-organizacoes"> Minhas organizações
-                </button>
-                <button class="botao-seta menu-button" data-target="sub-menu-descobrir">
-                    <img src="./img/descobriricone.png" alt="icone-descobrir">Descobrir 
-                    <img src="./img/Vector.png" class="seta" alt="Seta para baixo">
-                </button>
-                    <div class="sub-menu section" id="sub-menu-descobrir">
-                        <p>Editais</p>
-                        <p>BússolaCAST</p>
-                        <p>Corrente do bem</p>
-                        <p>Youtube</p>
-                </div>
-                
-                </div>
-                    <div class="sair">
-                        <button><img src="./img/_Button base.png" alt="icone-sair">Sair</button>
-                    </div>
-                <div class="logo">
-                    <img src="./img/bussola.png" alt="Logo Bússola">    
-                </div>
-            </div>
-        </section>
         <section id="pagina-inicial" class="pagina-inicial">
-            <div class="titulo">
+            <section class="titulo">
                 <h1>Sua conta Bússola</h1>
                 <p>Gerencie as suas informações pessoais, configurações e segurança. </p>
-            </div>
-            <div class="pagina-inicial-container">
-                <div class="informacoes-usuario">
-                    <div class="informacoes">
+            </section>
+                <section class="informacoes-usuario">
+                    <section class="informacoes">
                         <h2>Sessão ativa</h2>
-                        <div class="sessao-container">
-                            <img src="./img/imagegerandofalcoes.png" alt="Gerando falcões">
-                            <div class="sessao">
+                        <section class="sessao-container">
+                            <img src="./img/imagegerandofalcoes.png" alt="Gerando falcões Icon">
+                            <div class="sessao-ativa">
                                 <h3>Associação gerando falcões</h3>
                                 <p>Vila Santa Helena, Poá - SP</p>
                                 <a href="#">Ver minhas organizações</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="informacoes">
+                        </section>
+                    </section>
+                    <section class="informacoes">
                         <h2>Acesso padrão</h2>
-                        <div class="sessao-container">
-                            <img src="./img/predio 1.png" alt="icone Organizações">
-                            <div  class="sessao">
+                        <section class="sessao-container">
+                            <img src="./img/predio 1.png" alt="Organizations Icon">
+                            <div class="sessao-ativa">
                                 <h3>Ultima organização acessada</h3>
-                                <a href="#">Alterar minhas preferências</a>
+                                <a href="#" aria-label="Alterar preferencias do perfil">Alterar minhas preferências</a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="notificacoes-container">
-                    <div class="notificacoes-titulo">
-                        <h3>Suas notificações</h3>
-                    </div>
-                    <div class="notificacoes">
+                        </section>
+                    </section>
+                </section>
+                <main class="notificacoes-container">
+                        <h3 class="notificacoes-titulo">Suas notificações</h3>
+                    <aside class="notificacoes">
                         <div class="notificacoes-box borda-amarela">
-                            <img src="./img/senha.png" alt="Icone Senha">
+                            <img src="./img/senha.png" alt="Password Icon">
                             <div class="notificacoes-texto">
                                 <h3>Lembre de trocar sua senha!</h3>
-                                <p>Sua senha não é atualizada há mais de 6 meses, para manter sua segurança recomendados que <a href="#">atualize agora</a>.</p>
+                                <p>Sua senha não é atualizada há mais de 6 meses, para manter sua segurança recomendados que <a href="#" aria-label="Atualizações de segurança">atualize agora.</a></p>
                             </div>
                             <span>Hoje - 13:30</span>
-                        </div>
-
+                            </div>
                         <div class="notificacoes-box borda-verde">
-                            <img src="./img/lista-de-controle.png" alt="Icone Checklist">
+                            <img src="./img/lista-de-controle.png" alt="Checklist Icon">
                             <div class="notificacoes-texto">
                                 <h3>Seu acesso foi aceito pela organização “Petrobras”</h3>
                                 <p>Seu pedido de desbloqueio de acesso à PETROBRAS foi aceito, seu acesso já foi reestabelecido.</p>
                             </div>
                             <span>Ontem - 13:30</span>
                         </div>
-
                         <div class="notificacoes-box borda-rosa">
-                            <img src="./img/seguranca-de-dados.png" alt="Icone Segurança">
+                            <img src="./img/seguranca-de-dados.png" alt="Secrity Icon">
                             <div class="notificacoes-texto">
                                 <h3>Seu acesso foi bloqueado pela organização “Petrobras”</h3>
                                 <p>Seu acesso a PRIO foi bloqueado.</p>
                             </div>
                             <span>Hoje - 18:30</span>
                         </div>
-
                         <div class="notificacoes-box borda-azul">
-                            <img src="./img/e-mail.png" alt="Icone Email">
+                            <img src="./img/e-mail.png" alt="Email Icon">
                             <div class="notificacoes-texto">
                                 <h3>Você foi convidado para ter acesso a organização Gerando Falcões</h3>
                                 <p>Maria está convidando você a se juntar a Gerando Falcões - Instituto Mover vidas - Ceilandia - DF.</p>
                             </div>
                             <span>Há 1 semana </span>
                         </div>
-
                         <div class="notificacoes-box borda-verde">
-                            <img src="./img/lista-de-controle.png" alt="Icone Checklist">
+                            <img src="./img/lista-de-controle.png" alt="Checklist Icon">
                             <div class="notificacoes-texto">
                                 <h3>Seu vínculo foi aceito pela organização “SICREDI”</h3>
                                 <p>Sua solicitação de vínculo a SICREDI foi aprovado e seu acesso já está liberado.</p>
                             </div>
                             <span>Há 2 dias</span>
                         </div>
-                    </div>
-
-                </div>
-            </div>
+                    </aside>
+                </main>
         </section>
-    </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>
