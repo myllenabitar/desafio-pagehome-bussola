@@ -1,41 +1,21 @@
-
-    /*function toggleMenu(menuLinkId, menuId) {
-        const menuLink = document.getElementById(menuLinkId);
-        const menu = document.getElementById(menuId);
-
-        if (menu) {
-            menu.classList.toggle("active");
-            menuLink.classList.toggle("active"); 
-        }
-    }
-
-    document.getElementById("menu-perfil").addEventListener("click", function (event) {
-        event.preventDefault();
-        toggleMenu("menu-perfil", "submenu-perfil");
-    });
-
-    document.getElementById("menu-descobrir").addEventListener("click", function (event) {
-        event.preventDefault();
-        toggleMenu("menu-descobrir", "submenu-descobrir");
-    });
-*/
-//código otimizado:
-
-    document.addEventListener("click", function (event) {
-        const menuLink = event.target.closest("[data-menu]");
+document.addEventListener("DOMContentLoaded", function() {
     
-        if (!menuLink) return;
-    
-        event.preventDefault();
-    
-        const menuId = menuLink.dataset.menu;
-        const menu = document.getElementById(menuId);
-    
-        if (menu) {
+    document.querySelectorAll("[data-menu]").forEach(menuLink => { 
+        menuLink.addEventListener("click", function (event) {
+            const menuId = menuLink.dataset.menu;
+            const menu = document.getElementById(menuId);
+
+            if (!menu) return; 
+
+            event.preventDefault(); 
+
             menu.classList.toggle("active");
             menuLink.classList.toggle("active");
-        }
+        });
     });
+});
+
+
 
     
     
