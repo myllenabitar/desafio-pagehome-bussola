@@ -51,11 +51,11 @@ Este repositório contém o projeto "Page Home Bússola", uma interface web resp
 
 - 🚀 Implementação de um **modo escuro**.
 - 🚀 Adicionar animações suaves para transições do menu.
-- 🚀 Criar uma API para gerenciar as notificações de forma dinâmica.
+
 
 ## 🏆 Autora
 
 Desenvolvido com 💙 por **Myllena Bitar**. 
 
-🔗 [LinkedIn](https://www.linkedin.com/in/myllenabitar/) | 📧 myllena.bitar@example.com
+🔗 [LinkedIn](https://www.linkedin.com/in/myllenabitar/) | 📧 myllena.odo@gmail.com
 
