@@ -148,7 +148,7 @@ a {
     margin-bottom: 4rem;
 
 }
-.link-sair {
+.link-sair h3 {
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -423,17 +423,10 @@ a {
         gap: 1rem;
 
     }
-    
+
     .logo {
         align-items: end;
-        margin-top: 40rem;
-    }
-    
-    .menu-lateral {
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-
+        margin-top: 10rem;
     }
 
     .pagina-inicial {
@@ -459,25 +452,34 @@ a {
         width: 100%;
 
     }
-}
 
-@media (max-width: 768px) {
-    .menu {
-        font-size: 0.9rem;
+    .notificacoes-box span {
+        top: 0.1rem;
+        right: 0.5rem;
+        font-size: 0.6rem;
+        margin-bottom: 0.5rem;
     }
+}
+@media (max-width: 768px) { 
     .pagina-inicial {
         padding: 0.75rem;
         max-width: 100%;
 
     }
-    .logo {
-        align-items: end;
-        margin-top: 40rem;
-
+    .menu {
+        min-height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
     }
-    .sub-menu.ativo ~ .logo {
-        margin-top: 20rem;
-
+    
+    .logo {
+        align-self: center;
+        bottom: 1rem; 
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%; 
     }
 
     .informacoes-usuario {
@@ -529,6 +531,10 @@ a {
 
     }
 
+    .logo {
+        display: none;
+    }
+
     .pagina-inicial {
         max-width: 100%;
         flex-grow: 1;
@@ -543,14 +549,6 @@ a {
 
     }
 
-    .sub-menu.active ~ .logo {
-        display: none;
-    }
-
-    .logo {
-        margin-top: 10rem;
-    
-    }
     .titulo h1 {
         font-size: 1.25rem;
 
