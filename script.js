@@ -1,11 +1,11 @@
 
-    function toggleMenu(menuLinkId, menuId) {
+    /*function toggleMenu(menuLinkId, menuId) {
         const menuLink = document.getElementById(menuLinkId);
         const menu = document.getElementById(menuId);
 
         if (menu) {
-            menu.classList.toggle("ativo");
-            menuLink.classList.toggle("ativo"); 
+            menu.classList.toggle("active");
+            menuLink.classList.toggle("active"); 
         }
     }
 
@@ -18,6 +18,22 @@
         event.preventDefault();
         toggleMenu("menu-descobrir", "submenu-descobrir");
     });
+*/
+//código otimizado:
 
-
-
+    document.addEventListener("click", function (event) {
+        const menuLink = event.target.closest("[data-menu]");
+    
+        if (!menuLink) return;
+    
+        event.preventDefault();
+    
+        const menuId = menuLink.dataset.menu;
+        const menu = document.getElementById(menuId);
+    
+        if (menu) {
+            menu.classList.toggle("active");
+            menuLink.classList.toggle("active");
+        }
+    });
+    

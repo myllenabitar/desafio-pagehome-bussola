@@ -30,17 +30,18 @@ body {
 
 } 
 
-.menu {
+.menu { 
     background-color: var(--primary-color-1);
     padding: 1.25rem;
     padding-top: 1.25rem;
     text-align: center;
     width: 17.75rem;
     height: 87.5rem; 
-
+    
 }
 
 .menu-conta {
+    margin-top: 1.25rem;
     color: var(--text-color-2);
     font-weight: 700;
     line-height: 1.1875rem;
@@ -74,6 +75,7 @@ body {
 .menu-usuario h3{
     font-size: 0.9rem;
     font-weight: 700;
+
 }
 
 .link-inicio {
@@ -102,6 +104,7 @@ a {
     padding: 0px;  
     gap: 0.5rem;
     color:var(--text-color);
+
 }
 
 .sub-menu {
@@ -114,17 +117,19 @@ a {
     font-size: 0.8rem;
     font-weight: 400 !important;
     color: var(--text-color);
-
+    
 }
 
-.sub-menu.ativo {
+.sub-menu.active {
     max-height: 300px; 
     opacity: 1;
+
 }
 
-.menu-a.ativo .seta {
+.menu-a.active .seta {
     transform: rotate(180deg);  
     transition: transform 0.3s ease;
+
 }
 
 .sub-menu li {
@@ -141,20 +146,14 @@ a {
 }
 
 .logo {
-    align-items: end;
-    margin-top: 46.125rem;
-
-}
-
-#meu-perfil, #descobrir {
-    display: block; 
-
+    margin-top: 3.125rem;
+   
 }
 
 .pagina-inicial {
     background-color: var(--primary-color-2);
-    padding: 4rem 4rem;
-    margin-top: 5rem;
+    margin-top: 3.2rem;
+    padding: 1.7rem;
 
 }
 
