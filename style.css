@@ -36,10 +36,14 @@ body {
     padding-top: 1.25rem;
     text-align: center;
     width: 17.75rem;
-    height: 87.5rem; 
-    
+
 }
 
+.menu-navegacao{
+    height: 100vh;
+    flex:1;
+     
+}
 .menu-conta {
     margin-top: 1.25rem;
     color: var(--text-color-2);
@@ -139,14 +143,20 @@ a {
 
 }
 
-.link-sair{
-    margin-top: 3.125rem;
+.link-sair{ 
     border-top: 1px solid #EAEAEA;
+    margin-bottom: 4rem;
 
+}
+.link-sair {
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 .logo {
-    margin-top: 3.125rem;
+    margin-top: 30rem;
+    display: flex;
+    padding-left: 2rem;
    
 }
 
@@ -154,7 +164,7 @@ a {
     background-color: var(--primary-color-2);
     margin-top: 3.2rem;
     padding: 1.7rem;
-
+    
 }
 
 .titulo {
