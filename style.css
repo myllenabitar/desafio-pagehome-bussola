@@ -417,8 +417,7 @@ a {
     
     .logo {
         align-items: end;
-        margin-top: 2rem;
-        
+        margin-top: 40rem;
     }
     
     .menu-lateral {
@@ -439,7 +438,7 @@ a {
     .informacoes-usuario {
         grid-template-columns: 1fr;
         gap: 1rem;
-
+    
     }
 
     .notificacoes {
@@ -454,31 +453,95 @@ a {
 }
 
 @media (max-width: 768px) {
+    .menu {
+        font-size: 0.9rem;
+    }
     .pagina-inicial {
         padding: 0.75rem;
         max-width: 100%;
 
     }
-    
+    .logo {
+        align-items: end;
+        margin-top: 40rem;
+
+    }
+    .sub-menu.ativo ~ .logo {
+        margin-top: 20rem;
+        
+    }
+
     .informacoes-usuario {
         grid-template-columns: 1fr;
         gap: 0.75rem;
 
     }
 
+    .sessao-ativa h3, img{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+
+    }
+   
     .notificacoes-box {
         padding: 0.75rem;
+        font-size: 0.7rem;
+
+    }
+
+    .notificacoes-box h3 {
+        margin-top: 0.5rem;
+        font-size: 0.69rem;
+        flex-wrap: wrap;
+
+    }
+
+    .notificacoes-box p {
+        font-size: 0.6rem; 
+        
+    }
+
+    .notificacoes-box span {
+        font-weight: 500;
+        top: 0.1rem;
+        right: 0.5rem;
+        font-size: 0.5rem;
+        margin-bottom: 0.5rem; 
 
     }
 }
 
 @media (max-width: 480px) {
-    .pagina-inicial {
-        padding: 0.5rem;
-        max-width: 100%;
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+        min-height: 100vh;
 
     }
 
+    .pagina-inicial {
+        max-width: 100%;
+        flex-grow: 1;
+    }
+
+    .menu {
+        font-size: 0.8rem;
+        width: 100%;
+        place-self: start;
+        max-height: 800px; 
+        overflow: hidden;
+
+    }
+
+    .sub-menu.ativo ~ .logo {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 10rem;
+    
+    }
     .titulo h1 {
         font-size: 1.25rem;
 
@@ -496,8 +559,9 @@ a {
     }
 
     .informacoes h3 {
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 500;
+        padding-top: 0.5rem;
      
     }
 
@@ -512,6 +576,10 @@ a {
 
     }
 
+    .informacoes p {
+        font-size: 0.5rem;
+
+    }
     .notificacoes-box {
         padding: 0.5rem;
         font-size: 0.6rem;
@@ -524,6 +592,11 @@ a {
     }
 
     .notificacoes-box p {
+        font-size: 0.5rem; 
+
+    }
+
+    .notificacoes-box a {
         font-size: 0.5rem; 
 
     }
