@@ -473,7 +473,7 @@ a {
     .logo {
         position: absolute;
         align-self: center;
-        bottom: 5rem; 
+        bottom: 1rem; 
         left: 15%;
         transform: translateX(-50%);
         width: auto;
