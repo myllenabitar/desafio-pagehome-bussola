@@ -33,7 +33,6 @@
     background-color: var(--primary-color-1);
     border-radius: 0 0 0.625rem 0.625rem;
     margin-top: 2.5rem;
-    box-sizing: border-box;
 }
 
 .sessao-container {
@@ -41,7 +40,7 @@
     align-items: center;
     grid-template-columns: 1fr 4fr;
     gap: 0.0625rem;
-    margin-top: 2.8rem;
+    margin-top: 2rem;
 }
 
 .sessao-container img {
@@ -60,7 +59,6 @@
     color: var(--text-color);
     border-bottom: 1px solid var(--color-border);
     opacity: 70%; 
-    margin: 0;
 }
 
 .informacoes h3 {
