@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-    function toggleMenu(buttonId, menuId) {
-        const button = document.getElementById(buttonId);
+
+    function toggleMenu(menuLinkId, menuId) {
+        const menuLink = document.getElementById(menuLinkId);
         const menu = document.getElementById(menuId);
 
         if (menu) {
             menu.classList.toggle("ativo");
-            button.classList.toggle("ativo"); 
+            menuLink.classList.toggle("ativo"); 
         }
     }
 
@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         toggleMenu("menu-descobrir", "submenu-descobrir");
     });
-});
 
 
 
