@@ -533,7 +533,7 @@ a {
 
     }
 
-    .sub-menu.ativo ~ .logo {
+    .sub-menu.active ~ .logo {
         display: none;
     }
 
