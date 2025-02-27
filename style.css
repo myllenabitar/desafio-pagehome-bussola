@@ -458,28 +458,33 @@ a {
         right: 0.5rem;
         font-size: 0.6rem;
         margin-bottom: 0.5rem;
+
     }
 }
 @media (max-width: 768px) { 
+    .menu {
+        max-height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+
+    }
+
+    .logo {
+        position: absolute;
+        align-self: center;
+        bottom: 5rem; 
+        left: 15%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%; 
+
+    }
+
     .pagina-inicial {
         padding: 0.75rem;
         max-width: 100%;
 
-    }
-    .menu {
-        min-height: 100vh; 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; 
-    }
-    
-    .logo {
-        align-self: center;
-        bottom: 1rem; 
-        left: 50%;
-        transform: translateX(-50%);
-        width: auto;
-        max-width: 80%; 
     }
 
     .informacoes-usuario {
@@ -530,14 +535,20 @@ a {
         min-height: 100vh;
 
     }
-
     .logo {
-        display: none;
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 3rem;
+        margin-left: 10rem;
+
     }
 
     .pagina-inicial {
         max-width: 100%;
         flex-grow: 1;
+
     }
 
     .menu {
