@@ -125,11 +125,11 @@
     padding: 1rem;
     width: 62.5rem;
     height: 4.9375rem;
+    border-bottom: 1px solid var(--color-border);
     box-shadow: 0 0.125rem 0.3125rem var(--color-shadow);
     position: relative;
     margin-top: 1.875rem;
     gap: 1.25rem;
-    
 }
 
 .notificacoes-box a {
