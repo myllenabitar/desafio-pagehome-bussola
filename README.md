@@ -51,6 +51,7 @@ Este repositório contém o projeto "Page Home Bússola", uma interface web resp
 
 - 🚀 Implementação de um **modo escuro**.
 - 🚀 Adicionar animações suaves para transições do menu.
+- 🚀 Confecção de menu hambuguer para telas de tablet e mobile. 
 
 
 ## 🏆 Autora
