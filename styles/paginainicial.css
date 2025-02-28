@@ -1,4 +1,3 @@
-
 .pagina-inicial {
     background-color: var(--primary-color-2);
     margin-top: 3.2rem;
@@ -112,7 +111,6 @@
 .notificacoes-texto {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.8rem;
 }
 
 .notificacoes-texto a {
@@ -142,7 +140,6 @@
 .notificacoes-box img {
     font-size: 1.25rem;
     margin-right: 0.75rem;
-    margin-bottom: 1.8rem;
 }
 
 .notificacoes-box p {

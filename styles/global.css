@@ -2,7 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  font-family: var(--font-family);
   margin: 0;
   padding: 0;
 } 
@@ -21,6 +20,7 @@ html {
 }
 
 body {
+  font-family: var(--font-family);
   display: grid;
   grid-template-columns: 1fr 7fr; 
   gap: 1.25rem;
@@ -28,14 +28,14 @@ body {
 } 
 
 @media (min-width: 1024px) {
-  main {
+  body {
     grid-template-columns: 1fr 6fr;
     gap: 1.5rem; 
   }
 }
 
 @media (max-width: 1023px) {
-  main {
+  body {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
