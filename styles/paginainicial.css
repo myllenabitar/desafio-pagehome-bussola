@@ -39,7 +39,7 @@
     align-items: center;
     grid-template-columns: 1fr 4fr;
     gap: 0.0625rem;
-    margin-top: 2rem;
+    padding: 1rem;
 }
 
 .sessao-container img {
@@ -57,7 +57,9 @@
     font-weight: 700;
     color: var(--text-color);
     border-bottom: 1px solid var(--color-border);
-    opacity: 70%; 
+    opacity: 70%;
+    display: block;  
+    width: 100%;     
 }
 
 .informacoes h3 {
@@ -124,7 +126,7 @@
     width: 62.5rem;
     height: 4.9375rem;
     border-bottom: 1px solid var(--color-border);
-    box-shadow: 0 0.125rem 0.3125rem var(--color-shadow);
+    box-shadow: 0 0.125rem 0 0var(--color-shadow);
     position: relative;
     margin-top: 1.875rem;
     gap: 1.25rem;
@@ -177,8 +179,7 @@
 }
 
 .borda-rosa { 
-    border-left: 0.25rem solid #FFDCE4;
-    
+    border-left: 0.25rem solid #FFDCE4; 
 }
 
 .borda-azul { 

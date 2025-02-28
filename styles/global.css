@@ -22,7 +22,7 @@ html {
 body {
   font-family: var(--font-family);
   display: grid;
-  grid-template-columns: 1fr 7fr; 
+  grid-template-columns: 1fr 7fr;
   gap: 1.25rem;
   background-color: var(--primary-color-2);
 } 
