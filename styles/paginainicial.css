@@ -57,9 +57,7 @@
     font-weight: 700;
     color: var(--text-color);
     border-bottom: 1px solid var(--color-border);
-    opacity: 70%;
-    display: block;  
-    width: 100%;     
+    opacity: 70%; 
 }
 
 .informacoes h3 {
