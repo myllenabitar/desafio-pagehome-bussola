@@ -10,6 +10,9 @@ Este repositório contém o projeto "Page Home Bússola", uma interface web resp
 - **CSS3** → Estilização moderna e responsiva.
 - **JavaScript (Vanilla)** → Interatividade e manipulação do DOM.
 
+## Figma 
+https://www.figma.com/design/FQ6ObtlUfsRCOw8iflAIPU/Desafio-técnico---Frontend?node-id=0-1&p=f
+
 ## 📌 Funcionalidades
 
 - ✔️ Menu lateral de navegação com submenus expansíveis.
