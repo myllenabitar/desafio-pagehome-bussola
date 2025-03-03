@@ -11,7 +11,7 @@ Este repositório contém o projeto "Page Home Bússola", uma interface web resp
 - **JavaScript (Vanilla)** → Interatividade e manipulação do DOM.
 
 ## 🎨 Figma 
--** Projeto no figma que foi usado como base para este projeto:**
+- **Projeto no figma que foi usado como base para este projeto:**
 
 https://www.figma.com/design/FQ6ObtlUfsRCOw8iflAIPU/Desafio-técnico---Frontend?node-id=0-1&p=f
 
