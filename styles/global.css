@@ -34,7 +34,7 @@ body {
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1022px) {
   body {
     grid-template-columns: 1fr;
     gap: 1rem;
