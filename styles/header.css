@@ -124,7 +124,7 @@ a {
     font-size: 18px;
     cursor: pointer;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
     .menu {
         width: 18rem;
         height: 90rem;
@@ -132,6 +132,15 @@ a {
 
     .informacoes-usuario {
         grid-template-columns: 1fr 1fr;
+    }
+    .logo {
+        position: absolute;
+        align-self: center;
+        bottom: 18rem; 
+        left: 10%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%; 
     }
 }
 
@@ -143,7 +152,7 @@ a {
         display: block !important;
         width: 100vw;
         max-height: 50rem;
-      }
+    }
     .menu-button {
         border: none;
         padding: 10px;
@@ -160,27 +169,55 @@ a {
     .logo {
         position: absolute;
         align-self: center;
-        bottom: 10rem; 
+        bottom: 20rem; 
         left: 15%;
         transform: translateX(-50%);
         width: auto;
         max-width: 80%; 
     }     
 }
-
+@media (max-width: 1000px) and (min-width: 778px) {
+    .logo {
+        position: absolute;
+        align-self: center;
+        bottom: 18rem; 
+        left: 15%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%; 
+    } 
+}
 @media (max-width: 768px) { 
-    .menu {
+    .menu.show {
+        display: block !important;
         width: 100vw;
         max-height: 50rem;
-        display: flex;
+    }
+    .menu {
+        display: none;
+        width: 100vw;
+        max-height: 50rem;
         flex-direction: column;
         justify-content: space-between; 
     }
+    .menu-button {
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+        position: absolute;
+        left: 0;
+      }
 
     .logo {
         position: absolute;
         align-self: center;
-        bottom: 9rem; 
+        bottom: 16rem; 
         left: 15%;
         transform: translateX(-50%);
         width: auto;
@@ -190,19 +227,38 @@ a {
 
 @media (max-width: 480px) {
     .menu {
+        display: none;
         font-size: 0.8rem;
-        width: 100%;
         place-self: start;
         max-height: 800px; 
-        overflow: hidden;
+    }
+    .menu-button {
+        border: none;
+        padding: .2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        position: absolute;
+        left: 0;
+      }
+    .menu.show {
+        display: block !important;
+        width: 100vw;
+        max-height: 50rem;
     }
 
     .logo {
         position: absolute;
-        width: 50%;
-        padding: 0;
-        margin-top: 10rem;
-        margin-left: 6rem;    
+        align-self: center;
+        bottom: 17rem; 
+        left: 15%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%;     
     }
 
     .logo img {
