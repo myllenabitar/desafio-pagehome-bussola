@@ -120,12 +120,9 @@ a {
 }
 
 .logo {
-    position: absolute;
+    margin-top: 10rem;
+    margin-left: -3%;
     align-self: center;
-    top: 120rem;
-    transform: translateX(-50%);
-    width: auto;
-    max-width: 80%; 
 }
 @media (min-width: 1023px) {
     .menu {
@@ -172,24 +169,14 @@ a {
     .logo {
         position: absolute;
         align-self: center;
-        top: 45rem;
+        top: 35rem;
         left: 15%;
         transform: translateX(-50%);
         width: auto;
         max-width: 80%; 
     }     
 }
-@media (max-width: 1000px) and (min-width: 778px) {
-    .logo {
-        position: absolute;
-        align-self: center;
-        top: 8rem;
-        left: 15%;
-        transform: translateX(-50%);
-        width: auto;
-        max-width: 80%; 
-    } 
-}
+
 @media (max-width: 768px) { 
     .menu.show {
         display: block !important;
@@ -220,8 +207,8 @@ a {
     .logo {
         position: absolute;
         align-self: center;
-        top: 45rem;
-        left: 15%;
+        top: 35rem;
+        left: 20%;
         transform: translateX(-50%);
         width: auto;
         max-width: 80%; 
@@ -257,8 +244,8 @@ a {
     .logo {
         position: absolute;
         align-self: center;
-        top: 8rem; 
-        left: 15%;
+        top: 35rem;
+        left: 20%;
         transform: translateX(-50%);
         width: auto;
         max-width: 80%;     
@@ -270,8 +257,14 @@ a {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 458px) {
     .logo {
-
+        position: absolute;
+        align-self: center;
+        top: 35rem; 
+        left: 20%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%;
     }
 }
