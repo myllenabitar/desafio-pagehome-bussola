@@ -56,7 +56,6 @@ https://www.figma.com/design/FQ6ObtlUfsRCOw8iflAIPU/Desafio-técnico---Frontend?
 
 - 🚀 Implementação de um **modo escuro**.
 - 🚀 Adicionar animações suaves para transições do menu.
-- 🚀 Confecção de menu hambuguer para telas de tablet e mobile. 
 
 
 ## 🏆 Autora
